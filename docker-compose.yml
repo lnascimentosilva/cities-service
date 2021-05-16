@@ -3,7 +3,7 @@ services:
   cities-service:
     build: .
     ports:
-      - "8080:8080"
+      - "1111:8080"
     environment:
       - SPRING_DATASOURCE_URL=jdbc:mysql://mariadb:3306/eurovisiondb
       - SPRING_DATASOURCE_USERNAME=admin
